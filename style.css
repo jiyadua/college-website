@@ -1,0 +1,580 @@
+*{
+    margin:0px;
+    padding:0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+}
+html{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-tap-highlight-color:transparent;
+}
+html,body{
+    font-family:Roboto,sans-serif,arial;
+    font-size:14px;
+    color:#242424;
+    font-weight: 400;
+}
+.container{
+    width:1100px;
+    margin:0px auto;
+    display:table;
+
+}
+.width-100{
+    width:100%;
+    float:left;
+
+}
+.width-50{
+width:50%;
+float:left;
+}
+.width-25{
+    width:25%;
+    float:left;
+
+}
+.header{
+    background-color: #68bb59;
+
+}
+.head-left ul{
+    list-style: none;
+    float: left;
+
+}
+.head-left ul li{
+    border-right: 1px solid rgba(255,255,255,.3);
+    border-left:1px solid rgba(255,255,255,.3);
+    float:left;
+    padding-top:15px;
+    color:white;
+
+}
+.head-left ul li a{
+    text-decoration: none;
+    color:white;
+    padding:20px;
+
+}
+.notification{
+    padding-top:17px;
+    color:white;
+
+}
+.notification span{
+    padding-right:5px;
+
+}
+.head-right ul{
+    list-style: none;
+    float: right;
+
+
+}
+.head-right ul li{
+    border-right: 1px solid rgba(255,255,255,.3);
+    border-left:1px solid rgba(255,255,255,.3);
+    float:left;
+    padding-top:15px;
+    color:white;
+
+
+}
+.head-right ul li a{
+    text-decoration: none;
+    color:white;
+    padding:25px;
+
+
+}
+
+.logo{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    
+
+}
+.logo img{
+    height:110px;
+
+}
+.head-menu{
+    padding-top: 25px;
+    
+    
+}
+.head-menu ul{
+list-style: none;
+font-size: 14px;
+float: right;
+    
+
+}
+.head-menu ul li{
+    
+    
+    float:left;
+    padding-left:35px;
+
+}
+.head-menu ul li a{
+    justify-content: center;
+    text-decoration: none;
+    color:blue;
+    font-size:17px;
+    font-weight:bold;
+    transition:0.8s ease-in-out;
+}
+.head-menu ul li a:hover{
+    color:yellow;
+}
+.width-500{
+    padding: 10px;
+    height:550px;
+    
+    width:100%;
+    
+}
+#clg{
+    height:550px;
+    width: 100%;
+    background-size: cover;
+
+}
+    
+.main-section{
+    width: 100%;
+    float: left;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+.mt-20{
+    margin:20px;
+
+}
+.mt-30{
+    margin-top: 30px;
+
+}
+
+.heading-text{
+    color:#064727;
+    line-height: 20px;
+    font-size: 28px;
+    
+
+}
+.heading-border{
+    background-color: #ffc600;
+    display: inline-block;
+    height: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    width:100px;
+
+
+}
+.note-event{
+    padding:10px;
+    border:1px solid #e3e3e3;
+    width:48%;
+    float: left;
+
+}
+.notice-board{
+    border:5px solid #ffa38e;
+    padding:30px;
+    color:white;
+    background-color: #2a6922;
+    width:100%;
+    float:left;
+
+}
+.notice-board ul{
+    list-style:none;
+    padding: 0px;
+    width: 100%;
+    float:left;
+
+}
+.notice-board ul li{
+    font-size: 14px;
+    margin-bottom:20px;
+
+}
+.event-list{
+    padding:10px;
+    width:100%;
+    
+    border-bottom: 1px solid #e1e1e1;
+    
+
+}
+.event-date{
+    width:80px;
+    
+    text-align: center;
+    background: #76c568;
+    color:#fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+
+}
+.event-date p{
+    font-weight: 400;
+
+}
+.event-date h4{
+    font-weight: 400;
+    font-size: 28px;
+
+}
+.event-content{
+    width:calc(100%-110px);
+    
+    margin-left: 10px;
+    margin-right: 15px;
+
+}
+/* main banner section ends */
+/* campus section starts */
+.bg-lightgrey{
+    background-color: #f7f7f7;
+
+}
+.about-campus{
+    width:100%;
+    float: left;
+    padding: 20px;
+
+}
+.about-campus p{
+    color:#65716b;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 23px;
+}
+.about-campus ul{
+    list-style:none;
+    margin-top: 30px;
+    width: 100%;
+    float: left;
+    
+}
+.about-campus li{
+    color: #626262;
+    font-size: 15px;
+    margin-bottom: 8px;
+    
+}
+.about-campus li i{
+    color: #68bb59;
+    
+}
+.width-33{
+    width:33%;
+    float: left;
+}
+.width-66{
+    width:66%;
+    float:left;
+}
+.about-year{
+    margin-top: 40px;
+
+}
+.about-year h3{
+    font-size: 45px;
+    color: #68bb59;
+    line-height: 0;
+
+}
+.about-year h5{
+font-size: 14px;
+font-weight: 400;
+margin-top: 20px;
+}
+.about-campus a{
+    padding: 15px;
+    border: none;
+    background-color: #68bb59;
+    color: white;
+    border-radius: 2px;
+    font-size: 14px;
+    margin-top: 25px;
+    float: left;
+    text-decoration: none;
+
+}
+
+
+
+/* campus section ends */
+/* achievement section starts */
+.achievement,.achievement-banner{
+ padding: 10px;
+ 
+}
+.achievement h3{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+
+
+}
+.achievement p{
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+
+}
+.achievement a{
+padding: 10px 40px;
+background-color: #68bb59;
+color: white;
+border-radius: 2px;
+font-size: 14px;
+margin-top: 15px;
+text-decoration:none ;
+float: left;
+}
+
+
+.achievement-banner h5{
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    line-height: 20px;
+
+}
+.achievement-banner p{
+ font-size: 16px;
+ margin-top: 2px;
+}
+.achievement-banner img{
+    width: 450px;
+    
+
+}
+/* achievement section ends */
+/* popular course  section starts */
+.popular-course h2{
+    color: #064727;
+    font-size: 28px;
+
+}
+.popular-course p{
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 25px;
+    font-weight: 400;
+
+}
+.popular-course a{
+    text-decoration: none;
+    color:#064727;
+    float: left;
+    margin-top: 20px;
+
+
+}
+.bg-yellow{
+    background: #ffc252;
+
+}
+.bg-blue{
+    background: #add8e6;
+
+}
+.bg-green{
+     background: #90ee90;
+}
+.bg-grey{
+    background: #d3d3d3;
+
+}
+.course-list{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 0px;
+    width:90%;
+    float: left;
+
+}
+.course-list i{
+    font-size: 20px;
+
+}
+/* testimonial section starts */
+.testimonial{
+    width:100%;
+    float: left;
+    padding-right: 20px;
+
+}
+.testimonial-content{
+    background: #76c568;
+    color:#fff;
+    width:100%;
+    float: left;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 35px;
+    position: relative;
+
+}
+.testimonial-content::after{
+    content:"";
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    margin-left: 6px;
+    border-width: 34px;
+    border-style: solid;
+    border-color: #76c568 transparent transparent;
+    width:0%;
+
+}
+.testimonial-detail{
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+
+}
+.testimonial-img{
+    width:90px;
+    float:left;
+    text-align:center ;
+
+}
+.testimonial-img img{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+
+}
+.testimonial-name{
+    margin-left: 10px;
+    float: left;
+    width:calc(100%-100px);
+    font-size: 16px;
+
+}
+.testimonial-name h5{
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+.testimonial-name p{
+
+}
+/* testimonial section ends */
+/* placement section starts */
+.placement{
+    
+
+
+}
+.placement-sect{
+    padding: 50px;
+
+}
+.placement-sect h2{
+    
+    font-size: 40px;
+    letter-spacing: 1px;
+
+
+}
+
+
+.placement-sect h3{
+    
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+.placement-sect h4{
+    
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+.placement-sect p{
+    
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.placement-company  img{
+    width:auto;
+    height:250px;
+    max-width: 100%;
+    
+
+
+}
+/* placement section ends */
+/* gallery section starts */
+.gallery{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+
+}
+.gallery img{
+  height:auto;
+  width:98%;
+}
+/* gallery section ends */
+/* FOOTER SECTION START */
+.Footer-section{
+    
+    justify-content: center;
+    
+
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #064727;
+    height: 100px;
+    color: #d3d3d3;
+
+
+}
+/* FOOTER SECTION END */
+.panel-heading{
+    padding-top: 70px;
+}
+.panel{
+    padding-top:30px;
+    padding-left:500px;
+}
+.form{
+    border:5px solid black;
+    background-color: #52da3a;
+    
+    
+}
+.btn{
+    margin-left: 500px;
+}
+
+
+
+
+
+
